@@ -1,8 +1,8 @@
-# React Todo App: API Integration & Advanced Features 📝
+# React Todo App
 
 ## 🚀 Live Demo
 
-[Link to Live Demo](https://dmytro-halieba.github.io/react_todo-app/) 
+[Link to Live Demo](https://dmytro-halieba.github.io/react_todo-app/)
 
 ## ✨ Features
 
