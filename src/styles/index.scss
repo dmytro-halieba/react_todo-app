@@ -1,0 +1,46 @@
+@use './todoapp';
+@use './todo';
+@use './filter';
+
+:root {
+  --background-color: #f5f5f5;
+  --card-background-color: #fff;
+  --text-color: #4d4d4d;
+  --muted-color: #777;
+  --border-color: #ededed;
+  --control-background-color: rgba(0, 0, 0, 0.01);
+  --todo-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+    0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  --footer-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6,
+    0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6,
+    0 17px 2px -6px rgba(0, 0, 0, 0.2);
+}
+
+iframe {
+  display: none;
+}
+
+html,
+body {
+  min-height: 100%;
+  background-color: var(--background-color);
+}
+
+body {
+  min-width: 230px;
+  max-width: 550px;
+  margin: 0 auto;
+  color: var(--text-color);
+}
+
+.notification {
+  transition-property: opacity, min-height;
+  transition-duration: 1s;
+  min-height: 36px;
+}
+
+.notification.hidden {
+  min-height: 0;
+  opacity: 0;
+  pointer-events: none;
+}
