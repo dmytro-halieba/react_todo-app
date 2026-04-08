@@ -1,4 +1,4 @@
-# React Todo App: API Integration & Advanced Features 📝
+# React Todo App📝
 
 ## 🚀 Live Demo
 
